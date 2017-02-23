@@ -1,40 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-  <link rel="stylesheet" type="text/css" href="css/styles.css">
-  <title>Mad Libs</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <title>Mad Libs</title>
 </head>
+
 <body ng-app='myModule'>
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12">
-        <h2>Hello! Please enter information in these fields</h2>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h2 class="text-center heading">How About a Mad-Lib?!</h2>
 
-            <!-- <a href="#/input">Input</a>
-            <a href="#/output">Output</a> -->
-            <ul class="nav nav-tabs">
-              <li role="presentation"><a href="#/input">Input</a></li>
-              <li role="presentation"><a href="#/output">Mad-Lib This!</a></li>
-            </ul>
 
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-md-3"></div>
-      <div class="col-md-6">
-          <ng-view></ng-view>
-      </div>
-      <div class="col-md-3"></div>
-  </div>
+                <ul class="nav nav-tabs">
+                    <li role="presentation"><a href="#/input">Input</a></li>
+                    <li role="presentation"><a href="#/output">Mad-Lib This!</a></li>
+                </ul>
+
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-6">
+                <ng-view></ng-view>
+            </div>
+            <div class="col-md-3"></div>
+        </div>
 
 
 
 </body>
-<script src='https://ajax.googleapis.com/ajax/libs/angularjs/1.6.2/angular.js'></script><script src='https://ajax.googleapis.com/ajax/libs/angularjs/1.6.2/angular-route.js'></script><script src='js/jquery-2.2.4.min.js'></script>
+<script src='https://ajax.googleapis.com/ajax/libs/angularjs/1.6.2/angular.js'></script>
+<script src='https://ajax.googleapis.com/ajax/libs/angularjs/1.6.2/angular-route.js'></script>
+<script src='js/jquery-2.2.4.min.js'></script>
 <script src='js/bootstrap.min.js'></script>
 <script src='js/module/module.js'></script>
 <script src='js/module/config.js'></script>
@@ -42,4 +45,5 @@
 <script src='js/controllers/inputController.js'></script>
 <script src='js/controllers/outputController.js'></script>
 <script src='js/script.js'></script>
+
 </html>

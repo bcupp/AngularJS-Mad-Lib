@@ -12,7 +12,7 @@ app.config(function($routeProvider, $locationProvider){
       templateUrl: 'js/views/output.html'
     })
     .otherwise({
-    redirectTo: '/',
+    redirectTo: '/input',
   });
     $locationProvider.hashPrefix('');
 });
